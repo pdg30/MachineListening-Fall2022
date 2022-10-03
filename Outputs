@@ -1,0 +1,13 @@
+The sum is: 3
+The product is: 6
+The sum of the array is: 9
+The mean is: 3.5
+TypeError                                 Traceback (most recent call last)
+<ipython-input-114-bd5447055ec0> in <module>
+----> 1 samples = dur * sr
+      2 y = np.sin(2 * np.pi * freq * np.arange(samples) / sr)
+      3 plt.plot(np.arange(samples) / sr, y)
+      4 plt.xlabel('Time (s)')
+      5 plt.savefig(output_path)
+
+TypeError: can't multiply sequence by non-int of type 'list'
